@@ -1,0 +1,15 @@
+# two activities on the same day and same time and both have soft constraints where time preference can be met
+activity lunch 3
+activity eat 1
+
+
+# two binary constraints
+constraint lunch starts eat
+
+
+# domain constraints
+
+
+# soft domain constraints
+domain eat around 6pm 10
+domain lunch around 11am 50

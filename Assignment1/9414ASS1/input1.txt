@@ -1,0 +1,11 @@
+# two activities on the same day where time preference can be met
+activity lecture 3
+activity tutorial 1
+# two binary constraints
+constraint lecture before tutorial
+constraint lecture same-day tutorial
+# domain constraints
+domain lecture on wed
+domain lecture starts-before 10am
+domain lecture starts-after 7am
+domain tutorial around 5pm 10

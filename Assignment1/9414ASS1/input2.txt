@@ -1,0 +1,25 @@
+# six activities have constraints against each other where time preference cannot be met
+activity lecture 4
+activity lunch 2
+activity tutorial 1
+activity rest 1
+activity eat 2
+activity restroom 1
+
+# two binary constraints
+constraint lunch overlaps lecture
+constraint tutorial during lecture
+constraint restroom after tutorial
+constraint lecture overlaps eat
+constraint rest equals restroom
+
+
+
+# domain constraints
+domain lecture on fri
+domain lunch starts-after 10am
+domain eat ends-after 8pm
+
+
+# soft domain constraints
+domain eat around 12pm 40
